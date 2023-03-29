@@ -25,6 +25,7 @@ module.exports = {
         body: ["Nunito sans", "sans-serif"],
         heading: ["Bebas Neue", "sans-serif"],
         koulen: ["Koulen", "sans-serif"],
+        jakarta: ["Plus Jakarta Sans", "sans-serif"],
       },
     },
   },
