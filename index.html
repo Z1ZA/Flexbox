@@ -119,7 +119,7 @@
         </div>
       </div>
       <nav
-        class="navbar relative bottom-[2em] left-0 right-0 z-10 mx-auto flex h-[88px] w-[843px] items-center justify-between rounded-full bg-neutral-400 transition-all duration-500"
+        class="navbar relative bottom-[2em] left-0 right-0 z-10 mx-auto flex h-[88px] w-[843px] items-center justify-between rounded-full bg-neutral-400"
       >
         <div class="flex gap-9 pl-[46px] text-xl text-neutral-100">
           <a href="#" class="hover:text-primary"> Why us </a>
@@ -154,7 +154,7 @@
             The <span class="text-primary">Flexbox</span> Difference
           </h1>
         </div>
-        <div class="mt-[120px] flex justify-between gap-[21px] pb-8">
+        <div class="mt-[120px] flex justify-between gap-[21px] pb-[60px]">
           <div
             class="group h-[673px] w-[386px] rounded-lg bg-neutral-400 p-8 text-neutral-100 hover:bg-primary"
           >
@@ -243,12 +243,27 @@
     </section>
     <!-- Why us section end -->
 
+    <!-- Services sectoin start -->
+    <section>
+      <div class="container">
+        <div class="pt-[30px]">
+          <h1
+            class="font-jakarta text-[64px] font-medium uppercase text-neutral-600"
+          >
+            Transform Your Digital Presence with
+            <span class="text-primary">FLEXBOX</span> Services
+          </h1>
+        </div>
+      </div>
+    </section>
+    <!-- Services section end -->
+
     <script>
       window.addEventListener("scroll", function () {
         var scrollPosition = window.scrollY;
         var element = document.querySelector(".navbar");
 
-        if (scrollPosition > 250) {
+        if (scrollPosition > 220) {
           element.classList.remove("relative");
           element.classList.add("fixed");
         } else {
