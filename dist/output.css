@@ -1248,6 +1248,11 @@ video {
   color: rgb(250 250 250 / var(--tw-text-opacity));
 }
 
+.active\:bg-primary:active {
+  --tw-bg-opacity: 1;
+  background-color: rgb(231 51 48 / var(--tw-bg-opacity));
+}
+
 .group:hover .group-hover\:bg-hijau-400\/50 {
   background-color: rgb(61 206 48 / 0.5);
 }
