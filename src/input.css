@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.accordion::after {
+  content: "+";
+  color: #202020;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "-";
+}
