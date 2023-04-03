@@ -647,6 +647,10 @@ video {
   margin-bottom: 2.5rem;
 }
 
+.mb-14 {
+  margin-bottom: 3.5rem;
+}
+
 .mb-20 {
   margin-bottom: 5rem;
 }
@@ -661,6 +665,14 @@ video {
 
 .mb-\[150px\] {
   margin-bottom: 150px;
+}
+
+.mb-\[50px\] {
+  margin-bottom: 50px;
+}
+
+.ml-\[16px\] {
+  margin-left: 16px;
 }
 
 .ml-\[650px\] {
@@ -723,16 +735,12 @@ video {
   margin-top: 90px;
 }
 
-.mb-14 {
-  margin-bottom: 3.5rem;
+.mb-32 {
+  margin-bottom: 8rem;
 }
 
-.mb-\[50px\] {
-  margin-bottom: 50px;
-}
-
-.ml-\[16px\] {
-  margin-left: 16px;
+.mb-36 {
+  margin-bottom: 9rem;
 }
 
 .inline-block {
@@ -761,6 +769,10 @@ video {
 
 .h-9 {
   height: 2.25rem;
+}
+
+.h-96 {
+  height: 24rem;
 }
 
 .h-\[196px\] {
@@ -831,12 +843,16 @@ video {
   height: 100%;
 }
 
-.h-96 {
-  height: 24rem;
+.w-1\/4 {
+  width: 25%;
 }
 
 .w-11 {
   width: 2.75rem;
+}
+
+.w-28 {
+  width: 7rem;
 }
 
 .w-\[143px\] {
@@ -883,6 +899,10 @@ video {
   width: 465px;
 }
 
+.w-\[545px\] {
+  width: 545px;
+}
+
 .w-\[595px\] {
   width: 595px;
 }
@@ -907,16 +927,8 @@ video {
   width: 100%;
 }
 
-.w-1\/4 {
-  width: 25%;
-}
-
-.w-28 {
-  width: 7rem;
-}
-
-.w-\[545px\] {
-  width: 545px;
+.w-\[1440px\] {
+  width: 1440px;
 }
 
 .max-w-\[1440px\] {
@@ -955,12 +967,24 @@ video {
   justify-content: space-between;
 }
 
+.justify-around {
+  justify-content: space-around;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
 .gap-3 {
   gap: 0.75rem;
 }
 
 .gap-5 {
   gap: 1.25rem;
+}
+
+.gap-6 {
+  gap: 1.5rem;
 }
 
 .gap-7 {
@@ -985,10 +1009,6 @@ video {
 
 .gap-\[32px\] {
   gap: 32px;
-}
-
-.gap-6 {
-  gap: 1.5rem;
 }
 
 .overflow-hidden {
@@ -1024,12 +1044,12 @@ video {
   border-bottom-left-radius: 1rem;
 }
 
-.border-\[1px\] {
-  border-width: 1px;
-}
-
 .border-2 {
   border-width: 2px;
+}
+
+.border-\[1px\] {
+  border-width: 1px;
 }
 
 .border-solid {
@@ -1108,14 +1128,14 @@ video {
   padding-right: 1.5rem;
 }
 
-.px-\[22px\] {
-  padding-left: 22px;
-  padding-right: 22px;
-}
-
 .px-\[18px\] {
   padding-left: 18px;
   padding-right: 18px;
+}
+
+.px-\[22px\] {
+  padding-left: 22px;
+  padding-right: 22px;
 }
 
 .py-\[6px\] {
@@ -1206,12 +1226,20 @@ video {
   font-size: 197px;
 }
 
+.text-\[20px\] {
+  font-size: 20px;
+}
+
 .text-\[28px\] {
   font-size: 28px;
 }
 
 .text-\[34px\] {
   font-size: 34px;
+}
+
+.text-\[36px\] {
+  font-size: 36px;
 }
 
 .text-\[64px\] {
@@ -1225,14 +1253,6 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-\[20px\] {
-  font-size: 20px;
-}
-
-.text-\[36px\] {
-  font-size: 36px;
 }
 
 .font-medium {
