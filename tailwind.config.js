@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["index.html"],
+  content: ["index.html", "inquiry.html"],
   theme: {
     container: {
       padding: "40px",
@@ -18,8 +18,8 @@ module.exports = {
           600: "#202020",
         },
         hijau: {
-          500: "#D4F28D",
-          300: "#3DCE30",
+          400: "#3DCE30",
+          300: "#B6F329",
         },
       },
       fontFamily: {
@@ -27,6 +27,7 @@ module.exports = {
         heading: ["Bebas Neue", "sans-serif"],
         koulen: ["Koulen", "sans-serif"],
         jakarta: ["Plus Jakarta Sans", "sans-serif"],
+        jam: ["Inter", "sans-serif"],
       },
     },
   },

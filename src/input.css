@@ -1,3 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.accordion::after {
+  content: "+";
+  color: #202020;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "-";
+}
+
+.faq::after {
+  content: "+";
+  color: #fafafa;
+  float: right;
+  margin-top: -15px;
+  margin-right: 25px;
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.active:after {
+  content: "-";
+}
